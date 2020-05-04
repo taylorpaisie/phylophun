@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+# phylophun program by Taylor K. Paisie
+# A command line program for editing and manipulating files for phylogenetic analysis.
+import sys, os, numpy
+import urllib
+import time
+from Bio import SeqIO, Entrez
+from Bio.Seq import Seq
+from Bio.SeqFeature import SeqFeature
+from ftplib import FTP
+from urllib.error import HTTPError
+
+# for arg in sys.argv:
+#     print(arg)
+
+def main():
+    script = sys.argv[0]
+    action = sys.argv[1]
+    filenames = sys.argv[2:]
+    assert action in ['--fasta', '--names', '--output'], \
+           'Action is not one of --fasta, --names, or --output: ' + action
+    for f in filenames:
+        process(f, action)
+
+def change_seq_name():
+    script = sys.argv[0]
+    fasta_file = sys.argv[1]
+    new_fasta = sys.argv[2]
+    ids = sys.argv[3]
+    for f in fasta_file.readlines():
+        if f.__contains__(">"):
+            new_fasta.write(">" + ids.readline() + "\n")
+        else:
+            new_fasta.write(f)
+new_fasta.close()
+fasta_file.close()
+ids.close()
+
+if __name__ == '__main_':
+   main()
