@@ -10,7 +10,7 @@ AUTHOR = 'Taylor K. Paisie'
 AUTHOR_EMAIL = 'tpaisie@ufl.edu'
 URL = 'https://github.com/taylorpaisie/phylophun'
 
-# LICENSE = 'Apache License 2.0'
+LICENSE = ''
 DESCRIPTION = 'phylophun is a python package to help manipulate files to conduct phylogenetic analysis.'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
@@ -18,8 +18,7 @@ LONG_DESC_TYPE = "text/markdown"
 INSTALL_REQUIRES = [
       'numpy',
       'pandas',
-      'biopython',
-      'glob'
+      'biopython'
 ]
 
 setup(name=PACKAGE_NAME,
@@ -28,7 +27,7 @@ setup(name=PACKAGE_NAME,
       long_description=LONG_DESCRIPTION,
       long_description_content_type=LONG_DESC_TYPE,
       author=AUTHOR,
-      # license=LICENSE,
+      license=LICENSE,
       author_email=AUTHOR_EMAIL,
       url=URL,
       install_requires=INSTALL_REQUIRES,
