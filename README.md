@@ -1,2 +1,2 @@
-# phylophun python package
-# to download: pip install phylophun
+# To download use pip:
+## pip install phylophun
