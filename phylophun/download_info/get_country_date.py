@@ -2,7 +2,7 @@
 """This script part is the program called phylophun which is a combination of python
 scripts to help manipulate and conduct phylogenetic analysis.
 Author: Taylor K. Paisie <tpaisie@ufl.edu>
-Version: 1.0
+Version: 0.1.0
 Date: 2020-05-15
 """
 
@@ -43,7 +43,7 @@ class get_country_date:
         gb_file = open(args.ouput, 'r')
         #extract country and collection date from genbank file
         #take out accession numbers and country in a text file
-        save_country = open(arg.output + '_country.txt', 'w')
+        save_country = open(args.output + '_country.txt', 'w')
         for gb_record in SeqIO.parse(gb_file, 'genbank'):
             save_country.write(gb_record.name+'\t'),
             for feat in gb_record.features:

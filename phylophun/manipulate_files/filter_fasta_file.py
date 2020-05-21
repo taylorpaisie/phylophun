@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-"""This script part is the program called phylophun which is a combination of python
-scripts to help manipulate and conduct phylogenetic analysis.
+"""This script part is the program called phylophun. It takes a fasta file and a text file with ids,
+to give you a filter fasta file output.
 Author: Taylor K. Paisie <tpaisie@ufl.edu>
-Version: 1.0
+Version: 0.1.0
 Date: 2020-05-15
 """
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Combines fasta files one by one
 Author: Taylor K. Paisie <tpaisie@ufl.edu>
-Version: 1.0
+Version: 0.1.0
 Date: 2020-05-15
 """
 
