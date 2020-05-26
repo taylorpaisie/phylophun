@@ -22,9 +22,8 @@ pip install phylophun
 
 ## Usage
 To run download GenBank or FASTA files using phylophun:
-    <p>
-    phylophun get_files example.gb
+    <p>phylophun get_files example.gb</p>
     phylophun get_files example.fa
-    </p>
+    
 
 
