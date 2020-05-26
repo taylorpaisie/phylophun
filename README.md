@@ -1,44 +1,22 @@
-# To download use pip:
-## pip install phylophun
+[![License: MIT License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![DOI:10.1093/bioinformatics/btu153](https://zenodo.org/badge/DOI/10.1093/bioinformatics/btu153.svg)](https://doi.org/10.1093/bioinformatics/btu153)
+![Don't judge me](https://img.shields.io/badge/Language-Perl_5-steelblue.svg)
 
-$project
-========
+# phylophun: A python package to download and manipulate files for phylogenetic analysis
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+## Introduction
 
-Look how easy it is to use:
+Whole genome annotation is the process of identifying features of interest
+in a set of genomic DNA sequences, and labelling them with useful
+information. Prokka is a software tool to annotate bacterial, archaeal and
+viral genomes quickly and produce standards-compliant output files.
 
-    import project
-    # Get your stuff done
-    project.do_stuff()
+## Installation
 
-Features
---------
+### Install via pip
+If you use [pip](https://pip.pypa.io/en/stable/)
+you can install phylophun:
+```
+pip install phylophun
+```
 
-- Be awesome
-- Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
-
-License
--------
-
-The project is licensed under the BSD license.
