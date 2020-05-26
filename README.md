@@ -20,3 +20,8 @@ you can install phylophun:
 pip install phylophun
 ```
 
+## Usage
+To run download GenBank or FASTA files using phylophun:
+	phylophun get_files example.gb
+
+
