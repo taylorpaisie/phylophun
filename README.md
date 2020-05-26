@@ -27,3 +27,4 @@ phylophun get_files example.gb
 phylophun get_files example.fa  
 ```
 
+
