@@ -1,15 +1,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI:10.1093/bioinformatics/btu153](https://zenodo.org/badge/DOI/10.1093/bioinformatics/btu153.svg)](https://doi.org/10.1093/bioinformatics/btu153)
-![Don't judge me](https://img.shields.io/badge/Language-Perl_5-steelblue.svg)
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 # phylophun: A python package to download and manipulate files for phylogenetic analysis
 
 ## Introduction
 
-Whole genome annotation is the process of identifying features of interest
-in a set of genomic DNA sequences, and labelling them with useful
-information. Prokka is a software tool to annotate bacterial, archaeal and
-viral genomes quickly and produce standards-compliant output files.
+Performing phylogenetics requires the downloading and manipulation of several files. 
+Downloading hundreds of GenBank and/or FASTA files from online can take a long time 
+and doing one by one is almost impossible.
+Phylophun is a collection of python scripts that can be used to download and manipulate
+files in order for you to conduct phylogenetic analysis.
 
 ## Installation
 
