@@ -1,4 +1,4 @@
-[![License: MIT License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI:10.1093/bioinformatics/btu153](https://zenodo.org/badge/DOI/10.1093/bioinformatics/btu153.svg)](https://doi.org/10.1093/bioinformatics/btu153)
 ![Don't judge me](https://img.shields.io/badge/Language-Perl_5-steelblue.svg)
 
