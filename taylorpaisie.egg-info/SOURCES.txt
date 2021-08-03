@@ -1,0 +1,6 @@
+README.md
+setup.py
+taylorpaisie.egg-info/PKG-INFO
+taylorpaisie.egg-info/SOURCES.txt
+taylorpaisie.egg-info/dependency_links.txt
+taylorpaisie.egg-info/top_level.txt
