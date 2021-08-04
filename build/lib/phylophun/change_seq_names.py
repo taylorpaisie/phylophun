@@ -2,7 +2,7 @@
 """This script part is the program called phylophun which is a combination of python
 scripts to help manipulate and conduct phylogenetic analysis.
 Author: Taylor K. Paisie <tpaisie@ufl.edu>
-Version: 0.1.0
+Version: 1.0
 Date: 2020-05-15
 """
 
@@ -44,7 +44,7 @@ def main():
 	parser=argparse.ArgumentParser(description="Change the sequence names (Fasta header) in a multisequence fasta file.")
     #parser=argparse.ArgumentParser(description="Change the names in your fasta file. Make it your way or find your way on the fasta-file highway.")
 	parser.add_argument("-i", help="Input Fasta file (File to change sequence fasta file headers.", dest='Input fasta file', type=str, required=True)
-	parser.add_argument("-rename",help="Text file with new names for fasta headers.", dest="id_list", type=str, required=True)
+	parser.add_argument("-rename",help="GenBank IDs of fasta files to download.", dest="id_list", type=str, required=True)
 	parser.add_argument("-o",help="Output fasta file (file with new fasta headers).", dest="output", type=str, required=True)
 	parser.set_defaults(func=get_gb_file)
 	args=parser.parse_args()

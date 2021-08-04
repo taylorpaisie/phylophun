@@ -1,6 +1,15 @@
 LICENSE
 README.md
 setup.py
+phylophun/__init__.py
+phylophun/change_seq_names.py
+phylophun/combining_fasta.py
+phylophun/concatenate_fasta.py
+phylophun/get_country_date.py
+phylophun/get_fasta_file.py
+phylophun/get_gb_file.py
+phylophun/get_gene.py
+phylophun/get_host_source.py
 taylorpaisie.egg-info/PKG-INFO
 taylorpaisie.egg-info/SOURCES.txt
 taylorpaisie.egg-info/dependency_links.txt
