@@ -11,7 +11,7 @@ AUTHOR_EMAIL = 'tpaisie@ufl.edu'
 URL = 'https://github.com/taylorpaisie/phylophun'
 
 LICENSE = ''
-DESCRIPTION = 'phylophun is a python package to help manipulate files to conduct phylogenetic analysis.'
+DESCRIPTION = 'phylophun is a python package to help manipulate and download files to conduct phylogenetic analysis.'
 LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
@@ -37,5 +37,5 @@ setup(name=PACKAGE_NAME,
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         ],
-      python_requires='>=3.7',
+      python_requires='>=3.6',
       )
