@@ -38,7 +38,12 @@ class get_gb_gene:
 
         def get_gene(args):
             gb_file = open(args.output, 'r')
-            save_gene = open(args.output)
+            save_gene = open(args.output + '_gene.txt', 'w')
+            for gb_record in SeqIO.parse(gb_file, 'genbank'):
+                save_gene.write(gb_record.name+'\t'),
+                for feat in gb_record.features:
+                    if feat.type == 'source':
+                        
 
 def main():
 	parser=argparse.ArgumentParser(description="Get all the GenBank files! Give me a list of GenBank IDs, and I shall download them.")

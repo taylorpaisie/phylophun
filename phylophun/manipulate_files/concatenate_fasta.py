@@ -14,14 +14,13 @@ from Bio import SeqIO, Entrez, SearchIO
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio.Seq import Seq
 from Bio.SeqFeature import SeqFeature
-from Bio.Alphabet import SingleLetterAlphabet
 from ftplib import FTP
 from urllib.error import HTTPError
 
 
 def concatenate_fasta(args):
     for fasta_file in glob.glob(args.input):
-        concat = Seq.Seq("", SingleLetterAlphabet())
+        concat = Seq.Seq("")
         for s in SeqIO.parse(fasta_file, 'fasta'):
             concat += s
         print(fasta_file)
