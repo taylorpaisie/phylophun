@@ -34,13 +34,13 @@ def filter_fasta_file(args):
 	if count < len(wanted):
 	    print("Warning %i IDs not found in %s" % (len(wanted) - count, args.input))
 
-record_ids = list()
+	record_ids = list()
 
-with open(output_file, 'w') as f:
-	for record in SeqIO.parse("filter_"+input_file, 'fasta'):
- 		if record.id not in record_ids:
- 			record_ids.append(record.id)
- 			SeqIO.write(record, f, 'fasta')
+	with open(output_file, 'w') as f:
+		for record in SeqIO.parse("filter_"+input_file, 'fasta'):
+	 		if record.id not in record_ids:
+	 			record_ids.append(record.id)
+	 			SeqIO.write(record, f, 'fasta')
 	# print("Saved %i records from %s to %s" % (record, input_file, output_file))
 
 
