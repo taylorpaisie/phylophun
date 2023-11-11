@@ -7,7 +7,7 @@ HERE = pathlib.Path(__file__).parent
 VERSION = '0.1.0'
 PACKAGE_NAME = 'phylophun'
 AUTHOR = 'Taylor K. Paisie'
-AUTHOR_EMAIL = 'tpaisie@ufl.edu'
+AUTHOR_EMAIL = 'tpaisie91@gmail.com'
 URL = 'https://github.com/taylorpaisie/phylophun'
 
 LICENSE = ''

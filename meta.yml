@@ -1,0 +1,27 @@
+{% set name = "phylophun" %}
+{% set version = "0.1.0" %}
+
+package:
+  name: "{{name|lower}}"
+  version: "{{ version }}"
+
+source:
+  git_rev: https://github.com/taylorpaisie/phylophun
+  git_url: https://github.com/taylorpaisie/phylophun
+
+requirements:
+  build:
+    - python
+    - pip
+    - numpy
+    - biopython
+
+  run:
+    - python
+
+test:
+  imports:
+    - phylophun
+
+about:
+  home: https://github.com/taylorpaisie/phylophun
