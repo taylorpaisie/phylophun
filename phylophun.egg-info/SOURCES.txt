@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+phylophun.egg-info/PKG-INFO
+phylophun.egg-info/SOURCES.txt
+phylophun.egg-info/dependency_links.txt
+phylophun.egg-info/requires.txt
+phylophun.egg-info/top_level.txt
