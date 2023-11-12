@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 PACKAGE_NAME = 'phylophun'
 AUTHOR = 'Taylor K. Paisie'
 AUTHOR_EMAIL = 'tpaisie91@gmail.com'
